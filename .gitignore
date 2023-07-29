@@ -1,0 +1,7 @@
+.idea/
+.svn/
+.git/
+.gitee/
+vendor
+composer.lock
+.phpunit.result.cache
