@@ -1,6 +1,6 @@
 <?php
 
-namespace Exp\Brisk;
+namespace Exp\Brisk\Character;
 
 
 class Formatter

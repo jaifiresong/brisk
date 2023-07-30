@@ -1,5 +1,5 @@
 <?php
-
+namespace Exp\Brisk\Image;
 /**
  * 听说imagick图像处理很给力，所以保存了这段代码
  * from:http://www.jb51.net/article/50559.htm

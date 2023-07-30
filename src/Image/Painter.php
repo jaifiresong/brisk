@@ -1,7 +1,7 @@
 <?php
 
 
-namespace App\Common;
+namespace Exp\Brisk\Image;
 
 
 class Painter

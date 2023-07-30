@@ -2,7 +2,8 @@
 
 namespace Test;
 
-use Exp\Brisk\MultipleCurl;
+
+use Exp\Brisk\Curl\MultipleCurl;
 use PHPUnit\Framework\TestCase;
 
 class MultipleCurlTest extends TestCase
