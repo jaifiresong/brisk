@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exp\Brisk\Array;
+namespace Jaifire\Brisk\XArray;
 
 
 class Dict

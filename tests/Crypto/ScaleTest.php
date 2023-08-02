@@ -1,6 +1,6 @@
 <?php
 
-use Exp\Brisk\Crypto\Scale;
+use Jaifire\Brisk\Crypto\Scale;
 
 class ScaleTest extends \PHPUnit\Framework\TestCase
 {

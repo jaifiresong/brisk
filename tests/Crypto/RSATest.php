@@ -4,7 +4,7 @@
 namespace Test\Crypto;
 
 
-use Exp\Brisk\Crypto\RSA;
+use Jaifire\Brisk\Crypto\RSA;
 use PHPUnit\Framework\TestCase;
 
 class RSATest extends TestCase

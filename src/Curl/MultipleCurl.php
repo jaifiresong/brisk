@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exp\Brisk\Curl;
+namespace Jaifire\Brisk\Curl;
 
 
 class MultipleCurl

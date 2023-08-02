@@ -3,7 +3,7 @@
 namespace Test;
 
 
-use Exp\Brisk\Curl\MultipleCurl;
+use Jaifire\Brisk\Curl\MultipleCurl;
 use PHPUnit\Framework\TestCase;
 
 class MultipleCurlTest extends TestCase

@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exp\Brisk\Crypto;
+namespace Jaifire\Brisk\Crypto;
 
 
 class RSA

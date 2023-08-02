@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exp\Brisk;
+namespace Jaifire\Brisk;
 
 /*
  *  应纳税收入 = 总收入 - 总免税扣除

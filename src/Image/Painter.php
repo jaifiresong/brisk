@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exp\Brisk\Image;
+namespace Jaifire\Brisk\Image;
 
 
 class Painter

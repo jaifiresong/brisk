@@ -3,7 +3,7 @@
     "description": "PHP 通用代码收集",
     "autoload": {
         "psr-4": {
-            "Exp\\Brisk\\": "src/",
+            "Jaifire\\Brisk\\": "src/",
             "Test\\": "tests/"
         }
     },

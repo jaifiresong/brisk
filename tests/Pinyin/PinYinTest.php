@@ -1,6 +1,6 @@
 <?php
 
-use Exp\Brisk\Pinyin\PinYin;
+use Jaifire\Brisk\Pinyin\PinYin;
 
 class PinYinTest extends \PHPUnit\Framework\TestCase
 {

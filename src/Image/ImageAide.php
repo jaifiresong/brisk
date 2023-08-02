@@ -1,6 +1,6 @@
 <?php
 
-namespace Exp\Brisk\Image;
+namespace Jaifire\Brisk\Image;
 class ImageAide
 {
     public $info;

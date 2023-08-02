@@ -1,6 +1,6 @@
 <?php
 
-namespace Exp\Brisk\File;
+namespace Jaifire\Brisk\File;
 
 
 class Stream

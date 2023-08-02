@@ -3,8 +3,8 @@
 namespace Test;
 
 
-
-use Exp\Brisk\Tax;
+use Jaifire\Brisk\XArray\Dict;
+use Jaifire\Brisk\Tax;
 use PHPUnit\Framework\TestCase;
 
 
@@ -64,6 +64,12 @@ class TaxTest extends TestCase
         $arr = [11866.85, 11842.80, 11842.79, 11842.79, 11842.79, 11692.09, 11662.08, 11812.14, 11812.14, 11803.84, 11807.99, 11175.78];
         echo PHP_EOL;
         echo '实际总收入：' . array_sum($arr);
+        $this->assertIsString('');
+    }
+
+    public function test01()
+    {
+        $r = new Dict([]);
         $this->assertIsString('');
     }
 }

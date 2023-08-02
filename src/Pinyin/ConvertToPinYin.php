@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Exp\Brisk\Pinyin;
+namespace Jaifire\Brisk\Pinyin;
 
 
 class ConvertToPinYin

@@ -1,6 +1,6 @@
 <?php
 
-namespace Exp\Brisk\Character;
+namespace Jaifire\Brisk\Character;
 class PCRE
 {
     public static function is_url($url)

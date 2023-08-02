@@ -1,6 +1,6 @@
 <?php
 
-use Exp\Brisk\Pinyin\ConvertToPinYin;
+use Jaifire\Brisk\Pinyin\ConvertToPinYin;
 
 class ConvertToPinYinTest extends \PHPUnit\Framework\TestCase
 {
