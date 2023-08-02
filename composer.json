@@ -1,5 +1,5 @@
 {
-    "name": "exp/brisk",
+    "name": "jaifire/brisk",
     "description": "PHP 通用代码收集",
     "autoload": {
         "psr-4": {
