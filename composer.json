@@ -5,7 +5,10 @@
         "psr-4": {
             "Jaifire\\Brisk\\": "src/",
             "Test\\": "tests/"
-        }
+        },
+        "files": [
+            "functions/with_character.php"
+        ]
     },
     "authors": [
         {
@@ -20,6 +23,8 @@
         "php": ">=7.2",
         "ext-curl": "*",
         "ext-mbstring": "*",
-        "ext-openssl": "*"
+        "ext-openssl": "*",
+        "ext-gd": "*",
+        "ext-exif": "*"
     }
 }

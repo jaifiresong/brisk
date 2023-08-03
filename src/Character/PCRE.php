@@ -13,7 +13,7 @@ class PCRE
         return preg_replace_callback(
             '/src="(.*?)"/',
             function ($matched) use ($baseUrl) {
-                if (str_starts_with($matched[1], 'http')) {
+                if ('http' === substr($matched[1], 0, 4)) {
                     $img = $matched[1];
                 } else {
                     $img = $baseUrl . $matched[1];

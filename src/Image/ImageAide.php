@@ -32,12 +32,12 @@ class ImageAide
     public function rotate()
     {
         $orientation = $this->exif['Orientation'];
-        $map = [
+        $_ = [
             3 => 180,
             6 => -90,
             8 => 90,
         ];
-        $this->dst = imagerotate($this->src, $map[$orientation], 0);
+        $this->dst = imagerotate($this->src, $_[$orientation], 0);
         return $this;
     }
 
