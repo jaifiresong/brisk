@@ -6,3 +6,4 @@ $r = microtime(true);
 var_dump($r);
 
 var_dump(zeroFill('12', 10));
+

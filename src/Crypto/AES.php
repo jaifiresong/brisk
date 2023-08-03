@@ -2,32 +2,29 @@
 
 
 namespace Jaifire\Brisk\Crypto;
+
+
 /**
  * base64的特殊字符：+/=
  */
 class AES
 {
     private $way = 'aes-128-cbc';
-    private $key = '123456';
-    private $iv = '1234567890654321';
+    private $key;
+    private $iv;
 
-    private function __construct()
+    private function __construct($key)
     {
-        //pass
+        $this->key = $key;
     }
 
-    public static function summon($way = null, $key = null, $iv = null)
+    public static function summon($key, $way = null)
     {
-        $instance = new self();
+        $instance = new self($key);
         if ($way) {
             $instance->way = $way;
         }
-        if ($key) {
-            $instance->key = $key;
-        }
-        if ($iv) {
-            $instance->iv = $iv;
-        }
+        $instance->iv = substr(base64_encode($key), 0, 16);
         return $instance;
     }
 
@@ -42,6 +39,4 @@ class AES
         $ciphertext = urldecode($ciphertext);
         return openssl_decrypt(base64_decode($ciphertext), $this->way, $this->key, true, $this->iv);
     }
-
-
 }
