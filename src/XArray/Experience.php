@@ -28,4 +28,22 @@ class Experience
             }
         }
     }
+
+    // 分割数组，批量处理
+    public static function sliceBatch(array $data, callable $fn = null, int $batch = 1000)
+    {
+        $s = 0;
+        while (true) {
+            $arr = array_slice($data, $s, $batch);
+            if (empty($arr)) {
+                break;
+            }
+
+            if ($fn) {
+                $fn($arr);
+            }
+
+            $s += $batch;
+        }
+    }
 }

@@ -18,7 +18,7 @@ class AES
         $this->key = $key;
     }
 
-    public static function summon($key, $way = null)
+    public static function summon($key, $way = null): AES
     {
         $instance = new self($key);
         if ($way) {
